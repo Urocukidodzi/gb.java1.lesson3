@@ -14,7 +14,7 @@ public class Main {
     }
 
     private static void changeGame() {
-        System.out.println("CHANGE YOUR GAME:2\nSUPER NUMBER press 1\nMAGIC WORDS press 2\nOUT press 0\nplease input your change:");
+        System.out.println("CHANGE YOUR GAME:\n\nSUPER NUMBER press 1\nMAGIC WORDS press 2\nOUT press 0\nplease input your change:");
         int game = giveMeNumber();
         if (game == 1) {
             startGame();
